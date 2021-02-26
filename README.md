@@ -8,7 +8,7 @@
 
 - microservice architecture for a full indipendent :tw-1f4aa: organization of work inside the program, no more bottlenecks in your workload;
 - fast deploy in your server with automated instalation :tw-1f680:
-- unpenetrable security :tw-1f46e: system to garantize the security of your microservices from outsiders (looking at you Mr.Robot)
+- unpenetrable security :tw-1f46e: system to garantize the security of your microservices from outsiders (looking at you Mr.Robot). The services are only accesible from the edge service, and they comunicate between each other using authentication tokens.
 - tested results and top performances :tw-1f4af:
 - great customer service for all your needs ( :tw-1f486: )
 
