@@ -32,7 +32,7 @@ In order to authenticate use the presetted test account with the credentials: "a
 
 | PETITION | ROUTE | DESCRIPTION
 | ------------- | ------------- | ------------- |
-|GET |/copernicus/account/{id} | Retrieve a account by ID.
+|GET |/copernicus/account/{id} | Retrieve a account by ID
 |GET |/copernicus/accounts | Retrieve all accounts
 |POST |/copernicus/account | Create an account
 |PUT |/copernicus/account/{id}  | Modify a account by ID
@@ -43,20 +43,35 @@ In order to authenticate use the presetted test account with the credentials: "a
 
 | PETITION | ROUTE | DESCRIPTION
 | ------------- | ------------- | ------------- |
-|GET |/copernicus/account/{id} | Retrieve a SalesRep by ID.
-|POST |/copernicus/salesrep | Create an salesrep
-|PUT |/copernicus/salesrep/{id}  | Modify a salesrep by ID
-|DELETE |/copernicus/salesrep/{id}  | Delete a salesrep by ID
+|GET | /copernicus/account/{id} | Retrieve a SalesRep by ID
+|POST | /copernicus/salesrep | Create an salesrep
+|PUT | /copernicus/salesrep/{id}  | Modify a salesrep by ID
+|DELETE | /copernicus/salesrep/{id}  | Delete a salesrep by ID
 
 
 - Opportunity
 
 | PETITION | ROUTE | DESCRIPTION
 | ------------- | ------------- | ------------- |
-| GET  | /copernicus/opportunity/{id} | Retrieve a opportunity by ID.
+| GET  | /copernicus/opportunity/{id} | Retrieve a opportunity by ID
 | GET  | /copernicus/opportunity/all  | Retrieve all opportunities
 | PUT  | /copernicus/opportunity/{id}  | Modify a opportunity by ID. Needs a body
 | GET  | /copernicus/opportunity/all/{salesRepId}  | Retrieve all opportunities associated with a sales rep id
+
+
+- Result
+
+| GET  | /copernicus/opportunity-status/{id} | Shows the status of the required opportunity
+| POST  | /copernicus/opportunity-status/{id} | Modify the status of a required opportunity
+
+- Contact
+
+| PETITION | ROUTE | DESCRIPTION
+| ------------- | ------------- | ------------- |
+| GET  | /copernicus/contact/{id} | Retrieve a contact by ID.
+| GET  | /copernicus/contact/ | Retrieves all contacts
+| POST | /copernicus/new/contact/ | Create a new contact
+| PUT  | /copernicus/contact/{id} | Edit one existing contact by ID
 
 - Stats 
 
