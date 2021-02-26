@@ -1,6 +1,8 @@
 
 # Copernicus CRM
-> ##### We are going set a new order in your business
+> ##### To know that we know what we know, and to know that we do not know what we do not know, that is true knowledge. - Nicolaus Copernicus
+
+> ##### We are going set a new order in your business - Copernicus-CRM Dev Team
 
 ### Features
 
