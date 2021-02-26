@@ -6,25 +6,26 @@
 
 ### Features
 
-- microservice architecture for a full indipendent :tw-1f4aa: organization of work inside the program, no more bottlenecks in your workload;
-- fast deploy in your server with automated instalation :tw-1f680:
-- unpenetrable security :tw-1f46e: system to garantize the security of your microservices from outsiders (looking at you Mr.Robot). The services are only accesible from the edge service, and they comunicate between each other using authentication tokens.
-- tested results and top performances :tw-1f4af:
-- great customer service for all your needs ( :tw-1f486: )
+- microservice architecture for a full indipendent :muscle: organization of work inside the program, no more bottlenecks in your workload;
+- fast deploy in your server with automated instalation :dart:
+- unpenetrable security :policewoman: system to garantize the security of your microservices from outsiders (looking at you Mr.Robot :japanese_goblin:). The services are only accesible from the edge service, and they comunicate between each other using authentication tokens.
+- tested results and top performances :bulb:
+- great customer service for all your needs ( :massage:)
 
 
 ![](https://i.ibb.co/vdCHGXJ/schema.png)
 
 ## Installation
 
-Run the database scripts in your local server.
-Execute the installation script by writing the command "bash setup.sh" in your terminal and hitting enter :tw-26a1:
+Run the database scripts in your local server. :joystick:
+- Windows use the .bat file to install the project.
+- UNIX (OS/LINUX) Execute the installation script by writing the command "bash <file>.sh" in your terminal and hitting enter :video_game:
 
-## Authentication
+## Authentication :dark_sunglasses:
 
 In order to authenticate use the presetted test account with the credentials: "admin" "admin"
 
-## List of our endpoints that u need to know
+## List of our endpoints that u need to know :compass:
 
 :warning:  The gateway service uses the port: 8080  :warning:
 
