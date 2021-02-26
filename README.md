@@ -26,11 +26,26 @@ In order to authenticate use the presetted test account with the credentials: "a
 
 ## List of our endpoints that u need to know
 
-- get all
-localhost:8080/copernicus/
+- Account Endpoints
 
-- get all
-localhost:8080/copernicus/
+| PETITION | ROUTE | DESCRIPTION
+| ------------- | ------------- | ------------- |
+|GET |/copernicus/account/{id} | Retrieve a account by ID.
+|GET |/copernicus/accounts | Retrieve all accounts
+|POST |/copernicus/account | Create an account
+|PUT |/copernicus/account/{id}  | Modify a account by ID
+|DELETE |/copernicus/account/{id}  | Delete a account by ID
+
+
+- SalesRep Endpoints
+
+| PETITION | ROUTE | DESCRIPTION
+| ------------- | ------------- | ------------- |
+|GET |/copernicus/account/{id} | Retrieve a SalesRep by ID.
+|POST |/copernicus/salesrep | Create an salesrep
+|PUT |/copernicus/salesrep/{id}  | Modify a salesrep by ID
+|DELETE |/copernicus/salesrep/{id}  | Delete a salesrep by ID
+
 
 - get all
 localhost:8080/copernicus/
