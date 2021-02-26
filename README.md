@@ -61,6 +61,8 @@ In order to authenticate use the presetted test account with the credentials: "a
 
 - Result
 
+| PETITION | ROUTE | DESCRIPTION
+| ------------- | ------------- | ------------- |
 | GET  | /copernicus/opportunity-status/{id} | Shows the status of the required opportunity
 | POST  | /copernicus/opportunity-status/{id} | Modify the status of a required opportunity
 
