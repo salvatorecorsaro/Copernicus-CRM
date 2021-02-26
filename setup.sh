@@ -31,17 +31,17 @@ git clone https://github.com/C-Inherited/copernicus-gateway-service.git copernic
 git clone https://github.com/C-Inherited/Copernicus-CRM.git copernicus/manual
 
 
-# konsole -e mvn -f copernicus/eureka-service/pom.xml spring-boot:run
-# konsole -e mvn -f copernicus/config-service/pom.xml spring-boot:run
-# konsole -e mvn -f copernicus/account-service/pom.xml spring-boot:run
-# konsole -e mvn -f copernicus/result-service/pom.xml spring-boot:run
-# konsole -e mvn -f copernicus/validation-service/pom.xml spring-boot:run
-# konsole -e mvn -f copernicus/contact-service/pom.xml spring-boot:run
-# konsole -e mvn -f copernicus/stats-service/pom.xml spring-boot:run
-# konsole -e mvn -f copernicus/opportunities-service/pom.xml spring-boot:run
-# konsole -e mvn -f copernicus/salesrep-service/pom.xml spring-boot:run
-# konsole -e mvn -f copernicus/leads-service/pom.xml spring-boot:run
-# konsole -e mvn -f copernicus/gateway-service/pom.xml spring-boot:run
+konsole -e mvn -f copernicus/eureka-service/pom.xml spring-boot:run &
+konsole -e mvn -f copernicus/config-service/pom.xml spring-boot:run &
+konsole -e mvn -f copernicus/account-service/pom.xml spring-boot:run &
+konsole -e mvn -f copernicus/result-service/pom.xml spring-boot:run &
+konsole -e mvn -f copernicus/validation-service/pom.xml spring-boot:run &
+konsole -e mvn -f copernicus/contact-service/pom.xml spring-boot:run &
+konsole -e mvn -f copernicus/stats-service/pom.xml spring-boot:run & 
+konsole -e mvn -f copernicus/opportunities-service/pom.xml spring-boot:run &
+konsole -e mvn -f copernicus/salesrep-service/pom.xml spring-boot:run &
+konsole -e mvn -f copernicus/leads-service/pom.xml spring-boot:run & 
+konsole -e mvn -f copernicus/gateway-service/pom.xml spring-boot:run &
 
 
 echo "Copernicus setted up"
