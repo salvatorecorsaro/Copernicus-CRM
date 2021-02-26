@@ -26,6 +26,8 @@ In order to authenticate use the presetted test account with the credentials: "a
 
 ## List of our endpoints that u need to know
 
+:warning:  The gateway service uses the port: 8080  :warning:
+
 - Account Endpoints
 
 | PETITION | ROUTE | DESCRIPTION
@@ -47,24 +49,35 @@ In order to authenticate use the presetted test account with the credentials: "a
 |DELETE |/copernicus/salesrep/{id}  | Delete a salesrep by ID
 
 
-- get all
-localhost:8080/copernicus/
+- Opportunity
 
-- get all
-localhost:8080/copernicus/
+| PETITION | ROUTE | DESCRIPTION
+| ------------- | ------------- | ------------- |
+| GET  | /copernicus/opportunity/{id} | Retrieve a opportunity by ID.
+| GET  | /copernicus/opportunity/all  | Retrieve all opportunities
+| PUT  | /copernicus/opportunity/{id}  | Modify a opportunity by ID. Needs a body
+| GET  | /copernicus/opportunity/all/{salesRepId}  | Retrieve all opportunities associated with a sales rep id
 
-- get all
-localhost:8080/copernicus/
+- Stats 
 
-- get all
-localhost:8080/copernicus/
-
-- get all
-localhost:8080/copernicus/
-
-- get all
-localhost:8080/copernicus/
-
+| PETITION | ROUTE | DESCRIPTION
+| ------------- | ------------- | ------------- |
+| GET  | /copernicus/account/avg/employee-count | Shows average employee count between all accounts
+| GET  | /copernicus/account/max/employee-count | Shows max employee count between all accounts
+| GET  | /copernicus/account/min/employee-count | Shows min employee count between all accounts
+| GET  | /copernicus/account/median/employee-count | Shows median employee count between all accounts
+| GET  | /copernicus/opportunity/avg/by/account  | Shows avg number of opportunities count between all accounts
+| GET  | /copernicus/opportunity/max/by/account | Shows max number of opportunities between all accounts
+| GET  | /copernicus/opportunity/min/by/account  | Shows min number of opportunities between all accounts
+| GET  | /copernicus/opportunity/median/by/account | Shows meadian number of opportunities between all accounts
+| GET  | /copernicus/opportunity/avg/quantity/by/product | Shows avg quantity of every type of product
+| GET  | /copernicus/opportunity/max/quantity/by/product | Shows max quantity of every type of product
+| GET  | /copernicus/opportunity/min/quantity/by/product | Shows min quantity of every type of product
+| GET  | /copernicus/opportunity/median/quantity/by/product | Shows median quantity of every type of product
+| GET  | /copernicus/opportunity/count/by/product  | Shows the opportunity count by product
+| GET  | /copernicus/opportunity/count/by/city | Shows the opportunity count by city
+| GET  | /copernicus/opportunity/count/by/country  | Shows the opportunity count by country
+| GET  | /copernicus/opportunity/count/by/industry  | Shows the opportunity count by industry
 
 
 
