@@ -28,15 +28,17 @@ In order to authenticate use the presetted test account with the credentials: "a
 
 :warning:  The gateway service uses the port: 8080  :warning:
 
-- Account Endpoints
+- Lead Endpoints
 
 | PETITION | ROUTE | DESCRIPTION
 | ------------- | ------------- | ------------- |
-|GET |/copernicus/account/{id} | Retrieve a account by ID
-|GET |/copernicus/accounts | Retrieve all accounts
-|POST |/copernicus/account | Create an account
-|PUT |/copernicus/account/{id}  | Modify a account by ID
-|DELETE |/copernicus/account/{id}  | Delete a account by ID
+|GET | /copernicus/leads/{id} | Retrieve a Lead by ID
+|GET | /copernicus/leads/all | Retrieve all Leads
+|GET | /copernicus/leads/{salesRepId} | Retrieve all Leads by a SalesRep ID
+|POST | /copernicus/lead/new | Create a new Lead
+|PUT | /copernicus/leads/update  | Modify a Lead
+|DELETE | /copernicus/delete/{id}  | Delete a Lead by ID
+|POST | /copernicus/leads/{id}/convert/{accountId}  | Convert a Lead into a new Opportunity and associates it to an existing account
 
 
 - SalesRep Endpoints
@@ -74,6 +76,18 @@ In order to authenticate use the presetted test account with the credentials: "a
 | GET  | /copernicus/contact/ | Retrieves all contacts
 | POST | /copernicus/new/contact/ | Create a new contact
 | PUT  | /copernicus/contact/{id} | Edit one existing contact by ID
+
+
+- Account Endpoints
+
+| PETITION | ROUTE | DESCRIPTION
+| ------------- | ------------- | ------------- |
+|GET |/copernicus/account/{id} | Retrieve a account by ID
+|GET |/copernicus/accounts | Retrieve all accounts
+|POST |/copernicus/account | Create an account
+|PUT |/copernicus/account/{id}  | Modify a account by ID
+|DELETE |/copernicus/account/{id}  | Delete a account by ID
+
 
 - Stats 
 
