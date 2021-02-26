@@ -6,7 +6,7 @@
 
 ### Features
 
-- microservice architecture for a full indipendent :muscle: organization of work inside the program, no more bottlenecks in your workload;
+- microservice architecture :heart_eyes: for a full indipendent :muscle: organization of work inside the program, no more bottlenecks in your workload;
 - fast deploy in your server with automated instalation :dart:
 - unpenetrable security :policewoman: system to garantize the security of your microservices from outsiders (looking at you Mr.Robot :japanese_goblin:). The services are only accesible from the edge service, and they comunicate between each other using authentication tokens.
 - tested results and top performances :bulb:
@@ -115,4 +115,4 @@ In order to authenticate use the presetted test account with the credentials: "a
 
 ![](https://media.istockphoto.com/vectors/the-end-handwrite-title-on-red-round-bacground-old-movie-ending-vector-id1153678999?k=6&m=1153678999&s=612x612&w=0&h=nS151eK6EKLMfL3FW7BJ4AP91qU_oOPUGrvSEgf87IQ=)
 
-###### made with :fa-heart: by the c-inherited team
+###### made with :hearts: by the c-inherited team
