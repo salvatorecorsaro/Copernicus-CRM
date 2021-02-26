@@ -19,7 +19,7 @@
 
 Run the database scripts in your local server. :joystick:
 - Windows use the .bat file to install the project.
-- UNIX (OS/LINUX) Execute the installation script by writing the command "bash <file>.sh" in your terminal and hitting enter :video_game:
+- UNIX (OS/LINUX) Execute the installation script by writing the command "bash **instalation_script**.sh" in your terminal and hitting enter :video_game:
 
 ## Authentication :dark_sunglasses:
 
